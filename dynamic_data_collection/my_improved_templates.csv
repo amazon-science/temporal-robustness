@@ -1,0 +1,24 @@
+Wikidata ID,Relation,Template
+P54,member of sports team,The name of the team that <subject> plays for is <object>.
+P39,position held,The position that <subject> holds is that of <object>.
+P108,employer,<subject> has a job. <subject> works for <object>.
+P102,political party,<subject> is a member of the political party of <object>.
+P286,head coach,The name of the head coach of <subject> is <object>.
+P69,educated at,<subject> attended and graduated with a degree from <object>.
+P488,chairperson,The name of the chair of the <subject> is <object>.
+P6,head of government,The name of the head of the government of <subject> is the <object>.
+P569,date of birth,The date <subject> was born is <object>.
+P19,place of birth,The place <subject> was born is <object>.
+P570,date of death,The date <subject> died is <object>.
+P20,place of death,The place <subject> died is <object>.
+P279,subclass of,<subject> is a subclass of <object>.
+P37,official language,The official language of <subject> is <object>.
+P127,owned by,<subject> is considered to be owned by <object>.
+P103,native language,The native language of <subject> is <object>.
+P1001,legal term,One of the countries that <subject> is a legal term in is <object>.
+P106,profession,The profession of <subject> is <object>.
+P27,citizen,The name of the country that <subject> has citizenship is <object>.
+P176,produced by,The name of the company that <subject> is produced by is <object>.
+P138,named after,The entity that inspired the name of <subject> is <object>.
+P1412,language,The language that <subject> used to communicate in is <object>.
+P937,work location,The location that <subject> used to work is <object>.

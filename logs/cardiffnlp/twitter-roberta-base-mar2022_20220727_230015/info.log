@@ -1,0 +1,52 @@
+2022-07-27 23:00:15,386 - temporal_robustness_evaluation - INFO - 
+model name: cardiffnlp/twitter-roberta-base-mar2022
+args: {'lms': ['cardiffnlp/twitter-roberta-base-mar2022'], 'dataset': 'dynamic-templama', 'min_year': '2019', 'min_month': 1, 'min_day': 1, 'max_year': 2022, 'max_month': 12, 'max_day': 31, 'granularity': 'quarter', 'single_token': False, 'topk': 20, 'N': 100, 'max_num_masks': 5, 'seed': '1234', 'batch_size': 128, 'full_logdir': '/local/home/katemarg/temporal_robustness_evaluation/logs/cardiffnlp/twitter-roberta-base-mar2022_20220727_230015/', 'identifier': 'trial2', 'mask_token': '<mask>', 'vocab_size': 50265, 'max_seq_len': 512, 'special_ids': [0, 2, 3, 1, 50264], 'lowercase': False}
+
+
+2022-07-27 23:00:15,386 - temporal_robustness_evaluation - INFO - Start loading dynamic-templama test set.....
+2022-07-27 23:00:17,367 - temporal_robustness_evaluation - INFO - Loading pipeline.....
+2022-07-27 23:00:51,425 - temporal_robustness_evaluation - INFO - 
+********************new********************
+
+2022-07-27 23:00:51,426 - temporal_robustness_evaluation - INFO - 
+********************2019-Q2********************
+
+2022-07-27 23:01:12,972 - temporal_robustness_evaluation - INFO - 
+*****Model cardiffnlp/twitter-roberta-base-mar2022, Dataset dynamic-templama, Split new, Quarter 2019-Q2, Num of Examples 198, P@1 None, P@10 None, MRR None, F1 macro 0.04, Rouge 0.0667, Bert-score 0.8787!*****
+
+2022-07-27 23:01:12,972 - temporal_robustness_evaluation - INFO - 
+********************2019-Q3********************
+
+2022-07-27 23:01:27,286 - temporal_robustness_evaluation - INFO - 
+*****Model cardiffnlp/twitter-roberta-base-mar2022, Dataset dynamic-templama, Split new, Quarter 2019-Q3, Num of Examples 313, P@1 None, P@10 None, MRR None, F1 macro 0.0, Rouge 0.16, Bert-score 0.873!*****
+
+2022-07-27 23:01:27,286 - temporal_robustness_evaluation - INFO - 
+********************updated********************
+
+2022-07-27 23:01:27,286 - temporal_robustness_evaluation - INFO - 
+********************2019-Q2********************
+
+2022-07-27 23:01:42,085 - temporal_robustness_evaluation - INFO - 
+*****Model cardiffnlp/twitter-roberta-base-mar2022, Dataset dynamic-templama, Split updated, Quarter 2019-Q2, Num of Examples 36, P@1 None, P@10 None, MRR None, F1 macro 0.0, Rouge 0.0444, Bert-score 0.8866!*****
+
+2022-07-27 23:01:42,085 - temporal_robustness_evaluation - INFO - 
+********************2019-Q3********************
+
+2022-07-27 23:01:54,291 - temporal_robustness_evaluation - INFO - 
+*****Model cardiffnlp/twitter-roberta-base-mar2022, Dataset dynamic-templama, Split updated, Quarter 2019-Q3, Num of Examples 65, P@1 None, P@10 None, MRR None, F1 macro 0.025, Rouge 0.1943, Bert-score 0.8902!*****
+
+2022-07-27 23:01:54,291 - temporal_robustness_evaluation - INFO - 
+********************deleted********************
+
+2022-07-27 23:01:54,291 - temporal_robustness_evaluation - INFO - 
+********************2019-Q2********************
+
+2022-07-27 23:02:07,301 - temporal_robustness_evaluation - INFO - 
+*****Model cardiffnlp/twitter-roberta-base-mar2022, Dataset dynamic-templama, Split deleted, Quarter 2019-Q2, Num of Examples 206, P@1 None, P@10 None, MRR None, F1 macro 0.0, Rouge 0.0, Bert-score 0.8895!*****
+
+2022-07-27 23:02:07,301 - temporal_robustness_evaluation - INFO - 
+********************2019-Q3********************
+
+2022-07-27 23:02:20,745 - temporal_robustness_evaluation - INFO - 
+*****Model cardiffnlp/twitter-roberta-base-mar2022, Dataset dynamic-templama, Split deleted, Quarter 2019-Q3, Num of Examples 264, P@1 None, P@10 None, MRR None, F1 macro 0.0, Rouge 0.0, Bert-score 0.8888!*****
+

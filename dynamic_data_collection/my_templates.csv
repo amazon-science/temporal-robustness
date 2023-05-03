@@ -1,0 +1,24 @@
+Wikidata ID,Relation,Template
+P54,member of sports team,<subject> plays for <object>.
+P39,position held,<subject> holds the position of <object>.
+P108,employer,<subject> works for <object>.
+P102,political party,<subject> is a member of the <object>.
+P286,head coach,<object> is the head coach of <subject>.
+P69,educated at,<subject> attended <object>.
+P488,chairperson,<object> is the chair of <subject>.
+P6,head of government,<object> is the head of the government of <subject>.
+P569,date of birth,The date <subject> was born is <object>.
+P19,place of birth,The place <subject> was born is <object>.
+P570,date of death,The date <subject> died is <object>.
+P20,place of death,The place <subject> died is <object>.
+P279,subclass of,<subject> is a subclass of <object>.
+P37,official language,The official language of <subject> is <object>.
+P127,owned by,<subject> is owned by <object>.
+P103,native language,The native language of <subject> is <object>.
+P1001,legal term,<subject> is a legal term in <object>.
+P106,profession,<subject> is a <object> by profession.
+P27,citizen,<subject> is <object> citizen.
+P176,produced by,<subject> is produced by <object>.
+P138,named after,<subject> is named after <object>.
+P1412,language,<subject> used to communicate in <object>.
+P937,work location,<subject> used to work in <object>.

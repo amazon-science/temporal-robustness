@@ -1,0 +1,22 @@
+2022-07-27 22:22:23,073 - temporal_robustness_evaluation - INFO - 
+model name: cardiffnlp/twitter-roberta-base-mar2022
+args: {'lms': ['cardiffnlp/twitter-roberta-base-mar2022'], 'dataset': 'dynamic-templama', 'min_year': '2019', 'min_month': 1, 'min_day': 1, 'max_year': 2022, 'max_month': 12, 'max_day': 31, 'granularity': 'quarter', 'single_token': False, 'topk': 20, 'N': 100, 'max_num_masks': 5, 'seed': '1234', 'batch_size': 128, 'full_logdir': '/local/home/katemarg/temporal_robustness_evaluation/logs/cardiffnlp/twitter-roberta-base-mar2022_20220727_222223/', 'identifier': 'trial', 'mask_token': '<mask>', 'vocab_size': 50265, 'max_seq_len': 512, 'special_ids': [0, 2, 3, 1, 50264], 'lowercase': False}
+
+
+2022-07-27 22:22:23,073 - temporal_robustness_evaluation - INFO - Start loading dynamic-templama test set.....
+2022-07-27 22:22:24,710 - temporal_robustness_evaluation - INFO - Loading pipeline.....
+2022-07-27 22:24:10,190 - temporal_robustness_evaluation - INFO - 
+********************new********************
+
+2022-07-27 22:24:10,191 - temporal_robustness_evaluation - INFO - 
+********************2022-Q2********************
+
+2022-07-27 22:25:11,242 - temporal_robustness_evaluation - INFO - 
+*****Model cardiffnlp/twitter-roberta-base-mar2022, Dataset dynamic-templama, Split new, Year 2022-Q2, Num of Examples 67, P@1 None, P@10 None, MRR None, F1 macro 0.0667, Rouge 0.1, Bert-score 0.894!*****
+
+2022-07-27 22:25:11,243 - temporal_robustness_evaluation - INFO - 
+********************updated********************
+
+2022-07-27 22:25:11,243 - temporal_robustness_evaluation - INFO - 
+********************2022-Q2********************
+
